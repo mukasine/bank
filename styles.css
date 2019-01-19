@@ -1,0 +1,11 @@
+
+#initialisation,#deposit,#withdrawalForm,#accountForm{ 
+    display:none;
+} 
+body{
+    background-color:red;
+}
+h1{
+    text-align:center;
+    background-color:yellowS;
+}

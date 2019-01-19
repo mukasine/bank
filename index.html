@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <title>Bank account</title>
+    </head>
+    <body>
+        <div id="registration">
+                
+        <div class="container">
+
+            <div class="raw">
+
+            
+                <form >
+                    <h1>Welcome to<span> Moringa BANK</span></h1><br>
+                    <div class="form-group">
+                                <h2>New account application</h2><br>
+                                <h3>Name:</h3><input type="Name" class="form-control" id="name" placeholder="Enter your Name">
+                                <h3>ID Number:</h3><input type="idnum" class="form-control" id="idNumber" placeholder="Enter ID number">
+                                <h3>Amount:</h3><input type="amount" class="form-control" id="amount" placeholder="Enter the amount">
+                                <h3>Account-Number:</h3><input type="ac-number" class="form-control" id="accountNumber" placeholder="Enter your Account-Number">
+
+                                <h3>Date:</h3><input type="date" class="form-control" id="date">
+                                <h3>Address:</h3><input type="adress" class="form-control" id="address" placeholder="Enter address"><br><br>
+                                <button type="submit" class="btn btn-info" id="submit">SUBMIT</button>     
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>      
+        </div>
+        <div id="initialisation">
+            <div class="container">
+                    
+                    <h1>Welcome to<span> Moringa BANK</span></h1><br>
+                    <div class="form-group">
+                        <h2>Account Info</h2><br>
+                        <h3> Name:</h3><span  class="form-control" id="initName"></span>
+                        <h3>Amount:</h3><span  class="form-control" id="initialAmout"></span>
+                        <h3>Account-Number: </h3><span  class="form-control" id="initAccount"></span>
+                      
+                        <h3>Date:</h3><span type="date" class="form-control" id="initialDate"></span><br><br>
+                        <button type="button" class="btn btn-info" id="deposit">Deposit</button>
+                        <button type="button" class="btn btn-danger" id="withdrow">Withdraw</button> 
+                    </div>
+                
+                </div>
+        </div> 
+        <div id="depositForm">
+        <div class="container"  >
+                
+                    <form >
+                        <h1>Welcome to<span> Moringa BANK</span></h1><br>
+                        <div class="form-group">
+                            <h2>Deposit Form</h2><br>
+                            <h3> Name:</h3><input type="text" class="form-control" id="depositName">
+                            <h3>Deposit amount:</h3><input type="number" class="form-control" id="depositAmout" placeholder="Enter deposit amount">
+                            <h3>Account-Number:</h3><input type="number" class="form-control" id="depositAccount">
+
+                            <h3>Date:</h3><input type="date" class="form-control" id="dateOfDeposit"><br><br>
+                            <button type="button" class="btn btn-info" id="dep">DEPOSIT</button>
+
+                        </div>
+                    </form>
+          
+            </div> 
+        </div>
+        <div id="withdrawalForm">
+            <div class="container" >
+                
+                    <form >
+                        <h1>Welcome to<span> Moringa BANK</span></h1><br>
+                        <div class="form-group">
+                            <h1> Withdrow Form</h1><br>
+                            <h2> Name:</h2><input type="text" class="form-control" id="withdrowName">
+                            <h2>withdrow amount:</h2><input type="number" class="form-control" id="withdrowAmout" placeholder="Enter withdrow amount">
+                            <h2>Account-Number:</h2><input type="number" class="form-control" id="withdrowAccount">
+
+                            <h2>Date:</h2><input type="date" class="form-control" id="dateOfWithdrawal" placeholder="Enter Date"><br><br>
+                            <button type="button" class="btn btn-info" id="with" >WITHDARW</button>
+                        </div>
+                    </form>
+              
+            </div> 
+        </div>           
+        <div id="accountForm">
+            <div class="container">
+                    
+                    <h1>Welcome to<span> Moringa BANK</span></h1><br>
+                    <div class="form-group">
+                        <h2>your account is now</h2><br>
+                        <h3>Account-Number: </h3><span  class="form-control" id="account"></span>
+                        <h3> Name:</h3><span  class="form-control" id="accountName"></span>
+                        <h3>Amount:</h3><span  class="form-control" id="accountAmout"></span>
+                        <h3>Date:</h3><span type="date" class="form-control" id="accountDate"></span><br><br>
+                    </div>
+                
+                </div>
+        </div>               
+         
+    </body>
+</html>
